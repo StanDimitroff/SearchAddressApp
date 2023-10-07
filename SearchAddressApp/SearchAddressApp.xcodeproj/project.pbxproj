@@ -11,6 +11,7 @@
 		44F5412F2AD17313002F0C18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5412E2AD17313002F0C18 /* ContentView.swift */; };
 		44F541312AD17314002F0C18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F541302AD17314002F0C18 /* Assets.xcassets */; };
 		44F541342AD17314002F0C18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44F541332AD17314002F0C18 /* Preview Assets.xcassets */; };
+		44F5413C2AD174E2002F0C18 /* RemoteAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5413B2AD174E2002F0C18 /* RemoteAddress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		44F5412E2AD17313002F0C18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		44F541302AD17314002F0C18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44F541332AD17314002F0C18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44F5413B2AD174E2002F0C18 /* RemoteAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteAddress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		44F5412B2AD17313002F0C18 /* SearchAddressApp */ = {
 			isa = PBXGroup;
 			children = (
+				44F5413A2AD1748B002F0C18 /* AddressAPI */,
 				44F5412C2AD17313002F0C18 /* SearchAddressAppApp.swift */,
 				44F5412E2AD17313002F0C18 /* ContentView.swift */,
 				44F541302AD17314002F0C18 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				44F541332AD17314002F0C18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44F5413A2AD1748B002F0C18 /* AddressAPI */ = {
+			isa = PBXGroup;
+			children = (
+				44F5413B2AD174E2002F0C18 /* RemoteAddress.swift */,
+			);
+			path = AddressAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F5412F2AD17313002F0C18 /* ContentView.swift in Sources */,
+				44F5413C2AD174E2002F0C18 /* RemoteAddress.swift in Sources */,
 				44F5412D2AD17313002F0C18 /* SearchAddressAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
