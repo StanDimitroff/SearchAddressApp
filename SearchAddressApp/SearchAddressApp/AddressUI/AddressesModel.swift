@@ -19,6 +19,8 @@ final class AddressesModel: ObservableObject {
   }
 
   func loadAddresses(matching addressName: String = "") {
+
+    if addressName.count < 3 { return }
     var items = [URLQueryItem]()
 
     items.append(.init(name: "q", value: addressName))

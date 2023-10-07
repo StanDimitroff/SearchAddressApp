@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct AddressesListView: View {
 
@@ -13,6 +14,10 @@ struct AddressesListView: View {
 
   @State private var searchKeyword: String = ""
   @State private var alertPresented: Bool = false
+
+  @State var region = MKCoordinateRegion()
+
+  @State var mapPresented = false
 
   init(model: AddressesModel) {
     self.model = model
@@ -23,12 +28,13 @@ struct AddressesListView: View {
       List {
         ForEach(model.addresses, id: \.id) { address in
           AddressRow(text: address.label)
+            .onTapGesture {
+              region = .init(center: .init(latitude: address.latitude, longitude: address.longitude), span: .init(latitudeDelta: 0.2, longitudeDelta: 0.2))
+              mapPresented.toggle()
+            }
         }
       }
       .listStyle(.plain)
-      .refreshable {
-        model.loadAddresses()
-      }
       .searchable(text: $searchKeyword)
       .alert(isPresented: $alertPresented, error: model.loadError, actions: {
         Text("OK")
@@ -42,6 +48,10 @@ struct AddressesListView: View {
         if error != nil {
           alertPresented.toggle()
         }
+      }
+      .sheet(isPresented: $mapPresented) {
+        Map(coordinateRegion: $region, interactionModes: .pan)
+          .edgesIgnoringSafeArea(.all)
       }
     }
   }

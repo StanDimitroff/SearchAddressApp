@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "57F62421-D92A-4FE7-A9F6-429E0ABD9639"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "054858EA-FEE7-49A7-9351-11C834830E9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchAddressApp/AddressAPI/AddressLoader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "load(query:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "054858EA-FEE7-49A7-9351-11C834830E9A - 1514c81cf0f63996"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SearchAddressApp.AddressLoader.load(query: Swift.Array&lt;Foundation.URLQueryItem&gt;, completion: (Swift.Result&lt;Swift.Array&lt;SearchAddressApp.Address&gt;, SearchAddressApp.AddressLoader.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SearchAddressApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stanislavdimitrov/Dropbox/Mac/Desktop/SearchAddressApp/SearchAddressApp/SearchAddressApp/AddressAPI/AddressLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "224">
+               </Location>
+               <Location
+                  uuid = "054858EA-FEE7-49A7-9351-11C834830E9A - 303195663fb73026"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;(Foundation.Data, __C.NSHTTPURLResponse), Swift.Error&gt;) -&gt; () in SearchAddressApp.AddressLoader.load(query: Swift.Array&lt;Foundation.URLQueryItem&gt;, completion: (Swift.Result&lt;Swift.Array&lt;SearchAddressApp.Address&gt;, SearchAddressApp.AddressLoader.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "SearchAddressApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stanislavdimitrov/Dropbox/Mac/Desktop/SearchAddressApp/SearchAddressApp/SearchAddressApp/AddressAPI/AddressLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5ABA9EA8-6DAF-4E2C-96D8-AE27CE8A9C86"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchAddressApp/AddressAPI/AddressLoader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "load(query:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B6670197-3F72-47AE-91E1-996E9F139584"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SearchAddressApp/AddressUI/AddressesListView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
