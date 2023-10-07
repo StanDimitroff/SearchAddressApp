@@ -30,7 +30,10 @@ final class AddressLoader {
     self.client = client
   }
 
-  func load(completion: @escaping (Swift.Result<[Address], Error>) -> Void) {
+  func load(query: [URLQueryItem] = [], completion: @escaping (Swift.Result<[Address], Error>) -> Void) {
+    var url = self.url
+    url.append(queryItems: query)
+
     client.get(from: url) { result in
       switch result {
       case let .success((data, response)):

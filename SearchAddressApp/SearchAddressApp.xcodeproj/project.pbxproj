@@ -15,6 +15,8 @@
 		44F5413E2AD17A8E002F0C18 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5413D2AD17A8E002F0C18 /* HTTPClient.swift */; };
 		44F541402AD17AE0002F0C18 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5413F2AD17AE0002F0C18 /* Address.swift */; };
 		44F541422AD17B84002F0C18 /* AddressLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F541412AD17B84002F0C18 /* AddressLoader.swift */; };
+		44F541452AD18049002F0C18 /* AddressesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F541442AD18049002F0C18 /* AddressesListView.swift */; };
+		44F541472AD180A8002F0C18 /* AddressesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F541462AD180A8002F0C18 /* AddressesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		44F5413D2AD17A8E002F0C18 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		44F5413F2AD17AE0002F0C18 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
 		44F541412AD17B84002F0C18 /* AddressLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressLoader.swift; sourceTree = "<group>"; };
+		44F541442AD18049002F0C18 /* AddressesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesListView.swift; sourceTree = "<group>"; };
+		44F541462AD180A8002F0C18 /* AddressesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 		44F5412B2AD17313002F0C18 /* SearchAddressApp */ = {
 			isa = PBXGroup;
 			children = (
+				44F541432AD1802C002F0C18 /* AddressUI */,
 				44F5413F2AD17AE0002F0C18 /* Address.swift */,
 				44F5413A2AD1748B002F0C18 /* AddressAPI */,
 				44F5412C2AD17313002F0C18 /* SearchAddressAppApp.swift */,
@@ -85,6 +90,15 @@
 				44F541412AD17B84002F0C18 /* AddressLoader.swift */,
 			);
 			path = AddressAPI;
+			sourceTree = "<group>";
+		};
+		44F541432AD1802C002F0C18 /* AddressUI */ = {
+			isa = PBXGroup;
+			children = (
+				44F541442AD18049002F0C18 /* AddressesListView.swift */,
+				44F541462AD180A8002F0C18 /* AddressesModel.swift */,
+			);
+			path = AddressUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +172,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F541422AD17B84002F0C18 /* AddressLoader.swift in Sources */,
+				44F541452AD18049002F0C18 /* AddressesListView.swift in Sources */,
 				44F5412F2AD17313002F0C18 /* ContentView.swift in Sources */,
 				44F5413C2AD174E2002F0C18 /* RemoteAddress.swift in Sources */,
 				44F5413E2AD17A8E002F0C18 /* HTTPClient.swift in Sources */,
 				44F5412D2AD17313002F0C18 /* SearchAddressAppApp.swift in Sources */,
+				44F541472AD180A8002F0C18 /* AddressesModel.swift in Sources */,
 				44F541402AD17AE0002F0C18 /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
